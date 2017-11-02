@@ -1,80 +1,73 @@
 body {
-    font-size: 16px;
-    line-height: 30px;
-    background-image: url("white_wall_hash.png");
-    background-size: 100% 100%;
-    background-repeat: repeat;
+  font-size: 16px;
+  line-height: 20px;
+  background-image: url("white_wall_hash.png");
+  background-size: 100% 100%;
+  background-repeat: repeat;
 }
 
-p {  
+p {
   color: rgb(53, 52, 52);
-  font-family: Arial, Helvetica, sans-serif;
-  }
-
-
-.profile-image {
-  
 }
 
-.page-header {
-  border-bottom-color: teal;
-  border-bottom-style: solid;
-  border-bottom-width: thick;
+h1 {
+  font-size: 28px;
 }
 
-.container {}
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
 
 .nav {
+  margin-top: 10px;
+  padding-top: 10px;
   float: right;
   color: white;
 }
 
-/* .navbar-brand {
-  color: pink;
-  font-size: 40px;
-} */
-
-
-footer {
-  width: 100%;
-  height: 17px;
-  border-top-style: solid;
-  border-top-width: thick;
-  border-top-color: #4aaaa5;
-  padding: 15px 10px 30px 20px;
-  background: #666666;
-  color: #ffffff;
-  text-align: center;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+.navbar.navbar-default.navbar-static-top {
+  background-color: rgb(255, 136, 0)
 }
 
-/* 
+.panel.panel-default {
+  position: absolute;
+  top: 0;
+  right: 14px;
+}
 
-/* Following is the CSS Styling for Contact page.
-#contact-me {
-    float: left;
-    margin: 20px 0px 20px 0px;
-    padding: 20px 0px 20px 0px;
-    width: 650px;
-    height: 525px;
-    background: #ffffff;
-  }
+.panel-row {
+  margin-bottom: 10px;
+}
 
-#contact-form {
-    padding: 20px;
-    margin-left: 5px;
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-  }
+.navbar-brand {
+  font-size: 30px;
+  margin-top: 10px;
+  color: rgb(53, 52, 52);
+}
 
-.form-text-style {
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    padding: 10px;
-    width: 525px;
+.profile-image {
+  border-radius: 25px;
+  border: 2px solid gray;
+  width: 150px;
+  height: 150px;
+}
+
+.inactive {
+  background-color: rgb(199, 196, 196);
+  color: white;
+}
+
+.connect-image {
+  width: 50px;
+  height: 50px;
+  border: 0;
+  text-decoration: none;
+  padding: 0px;
+}
+
+.page-header {
+  border-bottom-color: rgb(255, 136, 0);
 }
 
 #form-text-style-message {
@@ -82,80 +75,36 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   padding: 10px;
-  width: 525px;
+  width: 100%;
   height: 170px;
 }
 
+.form-text-style {
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
 #submit-button {
-    color: #ffffff;
-    background: #4aaaa5;
-    padding: 10px 30px 10px 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-  }
+  color: #ffffff;
+  background: rgb(255, 136, 0);
+  padding: 10px 30px 10px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
 
-/* Following is the CSS styling for the Portfolio page. */
-/*  
-  #portfolio {
-    float: left;
-    margin: 20px 0px 20px 0px;
-    padding: 20px 0px 20px 0px;
-    width: 650px;
-    height: 525px;
-    background: #ffffff;
-  }
-
-  #portfolio-image-1left {
-    float: left;
-    padding: 0px 5px 0px 60px;
-    margin-top: 10px;
-    align-content: center;
-    max-width: 100%;
-  }
-    
-  #portfolio-image-1right {
-    float: right;
-    padding: 0px 5px 0px 5px;
-    margin-top: 10px;
-    margin-right: 60px;
-    align-content: center;
-    max-width: 100%;
-  }
-
-  #portfolio-image-2left {
-    float: left;
-    position: relative;
-    padding: 0px 5px 0px 60px;
-    align-content: center;
-    max-width: 100%;
-  }
-
-  #portfolio-image-2right {
-    float: right;
-    position: relative;
-    padding: 0px 5px 0px 5px;
-    margin-right: 60px;
-    align-content: center;
-    max-width: 100%;
-  }
-
-  #portfolio-image-3left {
-    float: left;
-    position: relative;
-    padding: 0px 5px 0px 60px;
-    align-content: center;
-    max-width: 100%;
-  }
-  
-  .portfolio-labels {
-    width: 210px;
-    height: 25px;
-    padding: 5px 5px 0px 5px;
-    position: relative;
-    bottom: 50px;
-    text-align: center;
-    background: #4aaaa5;
-    color: #ffffff;
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  } */
+footer {
+  width: 100%;
+  height: 17px;
+  border-top-style: solid;
+  border-top-width: thick;
+  border-top-color: rgb(255, 136, 0);
+  padding: 15px 10px 35px 20px;
+  background: #666666;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
