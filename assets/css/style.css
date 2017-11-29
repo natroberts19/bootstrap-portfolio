@@ -2,38 +2,49 @@ body {
   font-size: 16px;
   line-height: 20px;
   background-image: url("white_wall_hash.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: repeat;
 }
 
 p {
   color: rgb(53, 52, 52);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
 }
 
 h1 {
   font-size: 28px;
+  font-family: 'Lato', sans-serif;
 }
 
 h3 {
   font-size: 20px;
   text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+hr {
+  border-top-color: rgb(255, 136, 0);
 }
 
 .nav {
-  margin-top: 10px;
+  margin-top: 20px;
   padding-top: 10px;
   float: right;
   color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 .navbar.navbar-default.navbar-static-top {
-  background-color: rgb(255, 136, 0)
+  background-color: rgb(255, 136, 0);
 }
 
 .panel.panel-default {
   position: absolute;
-  top: 0;
-  right: 14px;
+  top: 0px;
+  left: 14px;
+  background: none;
+  border: none;
 }
 
 .panel-row {
@@ -41,16 +52,19 @@ h3 {
 }
 
 .navbar-brand {
-  font-size: 30px;
-  margin-top: 10px;
+  font-size: 60px;
+  font-style: bold;
+  margin-top: 20px;
   color: rgb(53, 52, 52);
+  font-family: 'Sacramento', cursive;
 }
 
 .profile-image {
-  border-radius: 25px;
+  border-radius: 50%;
   border: 2px solid gray;
-  width: 150px;
-  height: 150px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
 }
 
 .inactive {
@@ -64,10 +78,16 @@ h3 {
   border: 0;
   text-decoration: none;
   padding: 0px;
+  background: none;
 }
 
 .page-header {
   border-bottom-color: rgb(255, 136, 0);
+  margin-top: 10px;
+}
+
+.caption {
+  padding: 0px;
 }
 
 #form-text-style-message {
